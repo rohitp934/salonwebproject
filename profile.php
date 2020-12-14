@@ -100,7 +100,7 @@ session_start();
     <nav class="pink lighten-2">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" class="navbar-brand" ><img src="img/logod.png" style="max-width:150px "></a>
+          <a href="main.php#home" class="navbar-brand" ><img src="img/logod.png" style="max-width:150px "></a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
@@ -108,9 +108,9 @@ session_start();
             <li>
               <a href="main.php#home">HOME</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="main.php#search">SEARCH</a>
-            </li>
+            </li> -->
             <li>
               <a href="main.php#popular">POPULAR PACKAGES</a>
             </li>
@@ -132,9 +132,9 @@ session_start();
     <li>
       <a href="main.php#home">HOME</a>
     </li>
-    <li>
+    <!-- <li>
       <a href="main.php#search">SEARCH</a>
-    </li>
+    </li> -->
     <li>
       <a href="main.php#popular">POPULAR PACKGES</a>
     </li>

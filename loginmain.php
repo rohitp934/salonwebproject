@@ -116,7 +116,7 @@ alert('email already registered');
 
 <html>
 <head>
-    <title>login culrz</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/loginmain.css">
 </head>
     

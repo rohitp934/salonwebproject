@@ -12,6 +12,7 @@ html,body
   font-size: 18px !important;
   width: 90% !important;
   border: #f4f4f4 3px solid !important;
+  z-index: 9999;
 }
 
 .section-follow .fa-4x {

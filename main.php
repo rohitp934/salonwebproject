@@ -72,17 +72,17 @@ alert('error');
     <nav class="pink darken-1">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" class="navbar-brand" ><img src="img/logod.png" style="max-width:150px "></a>
-          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <a href="#home" class="navbar-brand" ><img src="img/logod.png" style="max-width:150px "></a>
+          <a href="#home" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
           <ul class="right hide-on-med-and-down">
             <li>
               <a href="#home">HOME</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#search">SEARCH</a>
-            </li>
+            </li> -->
             <li>
               <a href="#popular">POPULAR PACKAGES</a>
             </li>
@@ -105,9 +105,9 @@ alert('error');
     <li>
       <a href="#home">HOME</a>
     </li>
-    <li>
+    <!-- <li>
       <a href="#search">SEARCH</a>
-    </li>
+    </li> -->
     <li>
       <a href="#popular">POPULAR PACKGES</a>
     </li>
@@ -153,14 +153,10 @@ alert('error');
 
   <!-- Section: Search -->
   <section id="search" class="section section-search pink darken-1 white-text center scrollspy">
-    <div class="container" >
+    <div class="container">
       <div class="row">
-        <div class="col s12" data-aos="fade-right" data-aos-duration="2000">
-          <h3>Search Packages</h3>
-          <div class="input-field">
-            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Search your dream package">
-          </div>
-        </div>
+        <h4 class="center" >
+         <a href="salon.html"> Our Packages</a></h4>
       </div>
     </div>
   </section>
@@ -173,7 +169,7 @@ alert('error');
           <a href="https://www.google.com/maps/search/beauty+parlour+near+me">
               <div class="card-panel" style="text-decoration:none; color:black;">
             <i class="material-icons large pink-text">room</i>
-            <h4>OMNIPRESENT</h4>
+            <h4 style={z-index:1;}>OMNIPRESENT</h4>
             <p>Why travel far, <br>we have our experts<br> spread across..</p>
               </div></a>
         </div>
@@ -218,7 +214,7 @@ alert('error');
             <div class="card-image">
               <img src="img/custspa.jpg" alt="" height="310em" >
                 <span class="card-title"> <h3>Customized Packages</h3></span>
-                <a class="btn-floating halfway-fab waves-effect waves-light pink" ><i class="material-icons">add</i></a>
+                <!-- <a class="btn-floating halfway-fab waves-effect waves-light pink" ><i class="material-icons">add</i></a> -->
             </div>
             <div class="card-content">
               
@@ -229,9 +225,9 @@ alert('error');
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/amenity.png" alt="" height="310em" >
+              <img src="img/amenity.png" alt="" height="332em" >
                 <span class="card-title black-text"><h3></h3></span>
-                <a class="btn-floating halfway-fab waves-effect waves-light pink"><i class="material-icons">add</i></a>
+                <!-- <a class="btn-floating halfway-fab waves-effect waves-light pink"><i class="material-icons">add</i></a> -->
             </div>
             <div class="card-content">
               Ashburn's premier day spa, featuring a complete range of services for women and men. 
